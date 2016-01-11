@@ -27,9 +27,9 @@ namespace Piesel
             this.InitializeComponent();
         }
 
-        private void textBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        private void piesel_label_Tapped(object sender, TappedRoutedEventArgs e)
         {
-
+            nazwa.Text = "WOW";
         }
     }
 }
