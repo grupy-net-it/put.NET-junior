@@ -29,7 +29,18 @@ namespace Piesel
 
         private void piesel_label_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            nazwa.Text = "WOW";
+            login.Text = "WOW";
+        }
+
+        private void zaloguj_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            var login_wartosc = "";
+            var haslo_wartosc = "";
+
+            login_wartosc = login.Text;
+            haslo_wartosc = haslo.Password;
+
+            powitanie.Text = "WOW, witaj: " + haslo_wartosc;
         }
     }
 }

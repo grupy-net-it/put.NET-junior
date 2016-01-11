@@ -9,7 +9,11 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBlock x:Name="piesel_label" HorizontalAlignment="Left" Margin="75,10,0,0" TextWrapping="Wrap" Text="Hello piesel!" VerticalAlignment="Top" Foreground="#FFCC11F5" FontSize="40" Tapped="piesel_label_Tapped"/>
-        <TextBox x:Name="nazwa" HorizontalAlignment="Left" Margin="146,180,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
-
+        <TextBox x:Name="login" HorizontalAlignment="Left" Margin="50,152,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="23" Width="270" PlaceholderText="Login"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="50,127,0,0" TextWrapping="Wrap" Text="Wpisz login" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="50,198,0,0" TextWrapping="Wrap" Text="Wpisz hasło" VerticalAlignment="Top"/>
+        <Button x:Name="zaloguj" Content="Zaloguj się" HorizontalAlignment="Left" Margin="50,290,0,0" VerticalAlignment="Top" Width="270" Tapped="zaloguj_Tapped"/>
+        <TextBlock x:Name="powitanie" HorizontalAlignment="Left" Margin="50,365,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="270"/>
+        <PasswordBox x:Name="haslo" HorizontalAlignment="Left" Margin="50,218,0,0" VerticalAlignment="Top" Width="270" PlaceholderText="Hasło"/>
     </Grid>
 </Page>
